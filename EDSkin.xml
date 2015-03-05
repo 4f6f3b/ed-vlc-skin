@@ -1,0 +1,205 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="Elite Dangerous Radio" author="4f6f3b" email="@4f6f3b" webpage="http://www.github.com/4f6f3b"/>
+
+  <!-- Created using the VLC Skin Editor 0.8.6.dev (http://www.videolan.org/vlc/skineditor.html)-->
+
+  <Bitmap id="EDSkin_main" file="EDSkin/main2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_close" file="EDSkin/close.png" alphacolor="#FF00FF"/>
+  <Font id="FreeSans" file="fonts/FreeSans.ttf" size="20"/>
+  <Bitmap id="EDSkin_playtree_bg" file="EDSkin/playtree_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="Unnamed SliderBackground #30_bg" file="Unnamed SliderBackground #30_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_slider_bg" file="EDSkin/slider_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_slider_button" file="EDSkin/slider_button.png" alphacolor="#FF00FF"/>
+  <Bitmap id="sliderBackground_bg" file="sliderBackground_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_testGrad" file="EDSkin/testGrad.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset1_deselect" file="EDSkin/preset1_deselect.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset1_select" file="EDSkin/preset1_select.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset2_deselect" file="EDSkin/preset2_deselect.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset2_select" file="EDSkin/preset2_select.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset3_deselect" file="EDSkin/preset3_deselect.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset3_select" file="EDSkin/preset3_select.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset4_deselect" file="EDSkin/preset4_deselect.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_preset4_select" file="EDSkin/preset4_select.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_slider_volume_bg" file="EDSkin/slider_volume_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_slider_volume_button" file="EDSkin/slider_volume_button.png" alphacolor="#FF00FF"/>
+  <Font id="EUROCAPS_small" file="fonts/EUROCAPS.TTF" size="16"/>
+  <Font id="EUROCAPS_large" file="fonts/EUROCAPS.TTF" size="22"/>
+  <Bitmap id="EDSkin_main_outline" file="EDSkin/main_outline.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_main_fill" file="EDSkin/main_fill.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonExit_deselect" file="EDSkin/buttonExit_deselect.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonExit_select" file="EDSkin/buttonExit_select.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_checkbox_off" file="EDSkin/checkbox_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_checkbox_on" file="EDSkin/checkbox_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonCompact_off" file="EDSkin/buttonCompact_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonCompact_on" file="EDSkin/buttonCompact_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_sliderVolume_bg" file="EDSkin/sliderVolume_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonPause_off" file="EDSkin/buttonPause_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonPause_on" file="EDSkin/buttonPause_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonPlay_off" file="EDSkin/buttonPlay_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonPlay_on" file="EDSkin/buttonPlay_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonPivot_off" file="EDSkin/buttonPivot_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonPivot_on" file="EDSkin/buttonPivot_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonFull_off" file="EDSkin/buttonFull_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonFull_on" file="EDSkin/buttonFull_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_lineHorizontalThick" file="EDSkin/lineHorizontalThick.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_lineHorizontalThin" file="EDSkin/lineHorizontalThin.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_cursorBlinking" file="EDSkin/cursorBlinking.png" alphacolor="#FF00FF" nbframes="5" fps="3"/>
+  <Bitmap id="EDSkin_alphaTest" file="EDSkin/alphaTest.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_iconFolderClosed" file="EDSkin/iconFolderClosed.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_iconFolderOpen" file="EDSkin/iconFolderOpen.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_iconMusic" file="EDSkin/iconMusic.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonAbout_off" file="EDSkin/buttonAbout_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_buttonAbout_on" file="EDSkin/buttonAbout_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="EDSkin_slider_button_blue" file="EDSkin/slider_button_blue.png" alphacolor="#FF00FF"/>
+
+  <Window id="Main">
+    <Layout id="player" width="500" height="250">
+      <Image id="bg_fill" image="EDSkin_main_fill" action="move"/>
+      <Image id="bg" image="EDSkin_main_outline" action="move" visible="false"/>
+      <Playtree id="Playtree" font="EUROCAPS_small" bgcolor1="#2d1206" bgcolor2="#271005" fgcolor="#ee7404" selcolor="#532501" playcolor="#0053c4" itemimage="EDSkin_iconMusic" openimage="EDSkin_iconFolderOpen" closedimage="EDSkin_iconFolderClosed" flat="true" x="3" y="59" width="459" height="70">
+        <Slider id="playtreeSlider" x="-120" y="-40" points="(585,160),(585,105)" tooltiptext="" up="EDSkin_slider_button"/>
+      </Playtree>
+      <Panel id="header" x="15" y="2" width="578" height="21">
+        <Text text="v0.1a" font="EUROCAPS_small" color="#DC4E00" id="version" x="51" y="3" width="50"/>
+        <Text text="Radio" font="EUROCAPS_large" color="#DC4E00" id="radioText" x="-13" y="-2" width="100"/>
+        <Panel id="headerLines" x="-15" y="-2" width="608" height="20">
+          <Image id="lineHorizontalThin" image="EDSkin_lineHorizontalThin" action="move" resize="scale2"/>
+          <Image id="lineHorizontalThick" y="23" image="EDSkin_lineHorizontalThick" action="move" resize="scale2"/>
+        </Panel>
+      </Panel>
+      <Panel id="panelExit" x="449" y="2" width="50" height="20">
+        <Button up="EDSkin_buttonExit_deselect" down="EDSkin_buttonExit_select" over="EDSkin_buttonExit_select" action="vlc.quit()" id="buttonExit" x="11"/>
+      </Panel>
+      <Panel id="nowPlaying" x="3" y="27" width="466" height="20">
+        <Text text="                                 $N                                " font="EUROCAPS_large" color="#ee7404" id="textNowPlaying2" width="466" visible="vlc.isPlaying"/>
+        <Text text="                                 finding radio signal...                                " font="EUROCAPS_large" color="#DC4E00" id="notPlaying" width="466" visible="false"/>
+        <Text text="                                 $N                                " font="EUROCAPS_large" alignment="center" color="#DC4E00" id="textNowPlaying2_paused" width="466" visible="vlc.isPaused"/>
+      </Panel>
+      <Button up="EDSkin_buttonCompact_off" down="EDSkin_buttonCompact_on" over="EDSkin_buttonCompact_on" action="Main.setLayout(playerCompact)" id="buttonCompact" x="382" y="2"/>
+      <Panel id="panelVolume" x="470" y="30" width="50" height="100">
+        <Slider id="sliderVolume2" points="(14,62),(14,5)" value="volume" tooltiptext="" up="EDSkin_slider_volume_button">
+          <SliderBackground id="Unnamed SliderBackground #71" image="EDSkin_sliderVolume_bg"/>
+        </Slider>
+      </Panel>
+      <Button up="EDSkin_cursorBlinking" id="cursorBlinking" x="3" y="48" visible="vlc.isStopped"/>
+      <Panel id="UIbottom" x="3" y="129" width="500" height="100">
+        <Panel id="panelLines" x="-3" width="308" height="50">
+          <Image id="lineHorizontalThin_Bottom" y="55" image="EDSkin_lineHorizontalThin" action="resizeSE" resize="scale2"/>
+          <Image id="lineHorizontalThin_Bottom02" y="29" image="EDSkin_lineHorizontalThin" action="move" resize="scale2"/>
+          <Image id="lineHorizontalThick_Bottom" image="EDSkin_lineHorizontalThick" action="move" resize="scale2"/>
+        </Panel>
+        <Button up="EDSkin_buttonPivot_off" down="EDSkin_buttonPivot_on" over="EDSkin_buttonPivot_on" action="dialogs.popup()" id="buttonPivot" x="473" y="31"/>
+        <Panel id="panelFillToggle" y="33" width="150" height="20">
+          <Button up="EDSkin_checkbox_on" action="Main.setLayout(playerNoBG)" id="fillToggleOn" y="3"/>
+          <Text text="Fill Background" font="EUROCAPS_small" color="#f27e04" id="textFillToggle" x="19" width="200"/>
+        </Panel>
+        <Panel id="panelControls" width="578" height="34">
+          <Slider id="sliderTime" y="10" points="(3,6),(318,6)" value="time" tooltiptext="" up="EDSkin_slider_button_blue">
+            <SliderBackground id="sliderBackground" image="EDSkin_slider_bg"/>
+          </Slider>
+          <Text text=" $t" font="EUROCAPS_small" color="#ee7404" id="time" x="320" y="7" width="80" visible="vlc.isSeekable"/>
+          <Panel id="panelPlayPause" x="367" y="4" width="57" height="25">
+            <Button up="EDSkin_buttonPlay_off" down="EDSkin_buttonPlay_on" over="EDSkin_buttonPlay_on" action="vlc.play()" id="buttonPlay" visible="(not vlc.isPlaying)"/>
+            <Button up="EDSkin_buttonPause_off" down="EDSkin_buttonPause_on" over="EDSkin_buttonPause_on" action="vlc.pause()" id="buttonPause" visible="vlc.isPlaying"/>
+          </Panel>
+        </Panel>
+        <Panel id="onTopToggleOn" x="148" y="33" width="150" height="20">
+          <Text text="Press 'Ctrl+T' To Toggle Always On Top" font="EUROCAPS_small" color="#FF0000" id="textOnTop" x="9" width="300" visible="(not vlc.isOnTop)"/>
+        </Panel>
+      </Panel>
+      <Button up="EDSkin_buttonAbout_off" down="EDSkin_buttonAbout_on" over="EDSkin_buttonAbout_on" action="Main.setLayout(about)" id="buttonAbout" x="324" y="2"/>
+    </Layout>
+    <Layout id="playerNoBG" width="500" height="250">
+      <Image id="noBG_bg_fill" image="EDSkin_main_fill" action="move" visible="false"/>
+      <Image id="noBG_bg" image="EDSkin_main_outline" action="move" visible="false"/>
+      <Playtree id="noBG_Playtree" font="EUROCAPS_small" bgcolor1="#2d1206" bgcolor2="#271005" fgcolor="#ee7404" selcolor="#532501" playcolor="#0053c4" itemimage="EDSkin_iconMusic" openimage="EDSkin_iconFolderOpen" closedimage="EDSkin_iconFolderClosed" flat="true" x="3" y="59" width="459" height="70" visible="false">
+        <Slider id="noBG_playtreeSlider" x="-120" y="-40" points="(585,160),(585,105)" tooltiptext="" up="EDSkin_slider_button" visible="false"/>
+      </Playtree>
+      <Panel id="noBG_header" x="15" y="2" width="578" height="21">
+        <Text text="v0.1a" font="EUROCAPS_small" color="#DC4E00" id="noBG_version" x="51" y="3" width="50"/>
+        <Text text="Radio" font="EUROCAPS_large" color="#DC4E00" id="noBG_radioText" x="-13" y="-2" width="100"/>
+        <Panel id="noBG_headerLines" x="-15" y="-2" width="608" height="20">
+          <Image id="noBG_lineHorizontalThin" image="EDSkin_lineHorizontalThin" action="move" resize="scale2"/>
+          <Image id="noBG_lineHorizontalThick" y="23" image="EDSkin_lineHorizontalThick" action="move" resize="scale2"/>
+        </Panel>
+      </Panel>
+      <Panel id="noBG_panelExit" x="449" y="2" width="50" height="20">
+        <Button up="EDSkin_buttonExit_deselect" down="EDSkin_buttonExit_select" over="EDSkin_buttonExit_select" action="vlc.quit()" id="noBG_buttonExit" x="11"/>
+      </Panel>
+      <Panel id="noBG_nowPlaying" x="3" y="27" width="466" height="20">
+        <Text text="                                 $N                                " font="EUROCAPS_large" color="#ee7404" id="noBG_textNowPlaying2" width="466" visible="vlc.isPlaying"/>
+        <Text text="                                 finding radio signal...                                " font="EUROCAPS_large" color="#DC4E00" id="noBG_notPlaying" width="466" visible="false"/>
+        <Text text="                                 $N                                " font="EUROCAPS_large" alignment="center" color="#DC4E00" id="noBG_textNowPlaying2_paused" width="466" visible="vlc.isPaused"/>
+      </Panel>
+      <Button up="EDSkin_buttonCompact_off" down="EDSkin_buttonCompact_on" over="EDSkin_buttonCompact_on" action="Main.setLayout(playerCompact)" id="noBG_buttonCompact" x="382" y="2"/>
+      <Panel id="noBG_panelVolume" x="470" y="30" width="50" height="100">
+        <Slider id="noBG_sliderVolume2" points="(14,62),(14,5)" value="volume" tooltiptext="" up="EDSkin_slider_volume_button">
+          <SliderBackground id="noBG_Unnamed SliderBackground #71" image="EDSkin_sliderVolume_bg"/>
+        </Slider>
+      </Panel>
+      <Button up="EDSkin_cursorBlinking" id="noBG_cursorBlinking" x="3" y="48" visible="vlc.isStopped"/>
+      <Panel id="noBG_UIbottom" x="3" y="129" width="500" height="100">
+        <Panel id="noBG_panelLines" x="-3" width="308" height="50">
+          <Image id="noBG_lineHorizontalThin_Bottom" y="55" image="EDSkin_lineHorizontalThin" action="resizeSE" resize="scale2"/>
+          <Image id="noBG_lineHorizontalThin_Bottom02" y="29" image="EDSkin_lineHorizontalThin" action="move" resize="scale2"/>
+          <Image id="noBG_lineHorizontalThick_Bottom" image="EDSkin_lineHorizontalThick" action="move" resize="scale2"/>
+        </Panel>
+        <Button up="EDSkin_buttonPivot_off" down="EDSkin_buttonPivot_on" over="EDSkin_buttonPivot_on" action="dialogs.popup()" id="noBG_buttonPivot" x="473" y="31"/>
+        <Panel id="noBG_panelFillToggle" y="33" width="150" height="20">
+          <Button up="EDSkin_checkbox_off" action="Main.setLayout(player)" id="noBG_fillToggleOff" y="3"/>
+          <Text text="Fill Background" font="EUROCAPS_small" color="#f27e04" id="noBG_textFillToggle" x="19" width="200"/>
+        </Panel>
+        <Panel id="noBG_panelControls" width="578" height="34">
+          <Slider id="noBG_sliderTime" y="10" points="(3,6),(318,6)" value="time" tooltiptext="" up="EDSkin_slider_button_blue">
+            <SliderBackground id="noBG_sliderBackground" image="EDSkin_slider_bg"/>
+          </Slider>
+          <Text text=" $t" font="EUROCAPS_small" color="#ee7404" id="noBG_time" x="320" y="7" width="80" visible="vlc.isSeekable"/>
+          <Panel id="noBG_panelPlayPause" x="367" y="4" width="57" height="25">
+            <Button up="EDSkin_buttonPlay_off" down="EDSkin_buttonPlay_on" over="EDSkin_buttonPlay_on" action="vlc.play()" id="noBG_buttonPlay" visible="(not vlc.isPlaying)"/>
+            <Button up="EDSkin_buttonPause_off" down="EDSkin_buttonPause_on" over="EDSkin_buttonPause_on" action="vlc.pause()" id="noBG_buttonPause" visible="vlc.isPlaying"/>
+          </Panel>
+        </Panel>
+        <Panel id="noBG_onTopToggleOn" x="148" y="33" width="150" height="20">
+          <Text text="Press 'Ctrl+T' To Toggle Always On Top" font="EUROCAPS_small" color="#FF0000" id="noBG_textOnTop" x="9" width="300" visible="(not vlc.isOnTop)"/>
+        </Panel>
+      </Panel>
+      <Button up="EDSkin_buttonAbout_off" down="EDSkin_buttonAbout_on" over="EDSkin_buttonAbout_on" action="Main.setLayout(about)" id="noBG_buttonAbout" x="324" y="2"/>
+    </Layout>
+    <Layout id="playerCompact" width="500" height="60">
+      <Panel id="compact_header" x="15" y="2" width="578" height="21">
+        <Text text="v0.1a" font="EUROCAPS_small" color="#DC4E00" id="compact_version" x="51" y="3" width="50"/>
+        <Text text="Radio" font="EUROCAPS_large" color="#DC4E00" id="compact_radioText" x="-13" y="-2" width="100"/>
+        <Panel id="compact_headerLines" x="-15" y="-2" width="608" height="20">
+          <Image id="compact_lineHorizontalThin" image="EDSkin_lineHorizontalThin" action="move" resize="scale2"/>
+          <Image id="compact_lineHorizontalThick" y="23" image="EDSkin_lineHorizontalThick" action="move" resize="scale2"/>
+        </Panel>
+      </Panel>
+      <Panel id="compact_panelExit" x="449" y="2" width="50" height="20">
+        <Button up="EDSkin_buttonExit_deselect" down="EDSkin_buttonExit_select" over="EDSkin_buttonExit_select" action="vlc.quit()" id="compact_buttonExit" x="11"/>
+      </Panel>
+      <Panel id="compact_nowPlaying" x="3" y="27" width="466" height="20">
+        <Text text="                                 $N                                " font="EUROCAPS_large" color="#ee7404" id="compact_textNowPlaying2" width="466" visible="vlc.isPlaying"/>
+        <Text text="                                 finding radio signal...                                " font="EUROCAPS_large" color="#DC4E00" id="compact_notPlaying" width="466" visible="false"/>
+        <Text text="                                 $N                                " font="EUROCAPS_large" alignment="center" color="#DC4E00" id="compact_textNowPlaying2_paused" width="466" visible="vlc.isPaused"/>
+      </Panel>
+      <Button up="EDSkin_buttonCompact_off" down="EDSkin_buttonCompact_on" over="EDSkin_buttonCompact_on" action="Main.setLayout(player)" id="compact_buttonCompact" x="382" y="2"/>
+      <Button up="EDSkin_cursorBlinking" id="compact_cursorBlinking" x="3" y="48" visible="vlc.isStopped"/>
+      <Button up="EDSkin_buttonAbout_off" down="EDSkin_buttonAbout_on" over="EDSkin_buttonAbout_on" action="Main.setLayout(about)" id="compact_buttonAbout" x="324" y="2"/>
+    </Layout>
+    <Layout id="about" width="500" height="250">
+      <Image id="about_bg" image="EDSkin_main_fill"/>
+      <Panel id="about_credits" width="500" height="100">
+        <Text text="by 4f6f3b" font="EUROCAPS_small" color="#ee7404" id="about_text" x="131" y="24" width="500"/>
+        <Text text="E:D VLC Skin" font="EUROCAPS_large" color="#ee7404" id="about_text2" x="4" y="19" width="500"/>
+        <Text text="http://www.github.com/4f6f3b/ed-vlc-skin" font="EUROCAPS_small" color="#ee7404" id="about_text_website" x="4" y="64" width="500"/>
+        <Text text="Find new releases and updates at:" font="EUROCAPS_small" color="#ee7404" id="about_text_find" x="5" y="49" width="500"/>
+      </Panel>
+      <Panel id="panelExit" x="218" y="165" width="50" height="20">
+        <Button up="EDSkin_buttonExit_deselect" down="EDSkin_buttonExit_select" over="EDSkin_buttonExit_select" action="Main.setLayout(player)" id="buttonExit" x="11"/>
+      </Panel>
+      <Image id="lineHorizontalThick" y="159" image="EDSkin_lineHorizontalThick" resize="scale2"/>
+    </Layout>
+  </Window>
+
+</Theme>
